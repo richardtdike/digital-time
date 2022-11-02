@@ -3,7 +3,7 @@ import sevseg # Imports our sevseg.py program.
 
 try:
     while True:
-        print('\n' * 60)
+        print('\n' * 5)
     # Get the current time from the computer's clock:
         currentTime = time.localtime()
     # % 12 so we use a 12-hour clock, not 24:
